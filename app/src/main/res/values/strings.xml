@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RecyclerViewDemo</string>
+
+    <string name="text_order_cardview">Order #</string>
+    <string name="text_order_details">Details</string>
+    <string name="text_order_placed_on">Placed on  </string>
+    <string name="text_delivered">Delivered</string>
+    <string name="text_shop_name">Shop Name </string>
+    <string name="text_write_review">Write Review</string>
+    <string name="text_shipping_address">Shipping Address</string>
+    <string name="text_total_summary">Total Summary</string>
+    <string name="text_sub_total">Sub-total</string>
+    <string name="text_delivery_charge">Delivery Charge</string>
+    <string name="text_discount">Discount</string>
+    <string name="text_order_total">Total</string>
+
+</resources>
