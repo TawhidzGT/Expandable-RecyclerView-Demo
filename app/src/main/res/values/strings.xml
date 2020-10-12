@@ -13,5 +13,8 @@
     <string name="text_delivery_charge">Delivery Charge</string>
     <string name="text_discount">Discount</string>
     <string name="text_order_total">Total</string>
+    <string name="profile_address_mobile_no_text">Mobile: </string>
+    <string name="remove_text">Remove</string>
+    <string name="cart_edit_text">Edit</string>
 
 </resources>

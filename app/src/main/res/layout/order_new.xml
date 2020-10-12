@@ -22,6 +22,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/background_shape"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:orientation="vertical">
 
             <LinearLayout
@@ -32,34 +34,33 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
+                    android:textStyle="bold"
                     android:text="@string/text_order_cardview"
                     android:textColor="@color/black"
-                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    android:textSize="@dimen/font_xl"/>
 
                 <TextView
                     android:id="@+id/OrderNumber"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
+                    android:textStyle="bold"
                     android:text="11142323"
                     android:textColor="@color/black"
-                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                   android:textSize="@dimen/font_xl"/>
 
 
                 <TextView
                     android:id="@+id/OrderDetails"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
                     android:layout_gravity="center"
                     android:gravity="end"
                     android:layout_weight="1"
                     android:text="@string/text_order_details"
                     android:drawableEnd="@drawable/ic_right_arrow"
-                    android:drawablePadding="5dp"
+                    android:drawablePadding="0dp"
                     android:textColor="@color/black"
-                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    android:textSize="@dimen/font_xl"/>
 
             </LinearLayout>
 
@@ -71,31 +72,28 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
                     android:text="@string/text_order_placed_on"
+                    android:layout_marginEnd="2dp"
                     android:textColor="@color/black"
-                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    android:textSize="@dimen/font_s"/>
 
                 <TextView
                     android:id="@+id/OrderPlacedDate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    android:text="20 Aug 2020 11:91"
+                    android:text=" 20 Aug 2020 11:91"
                     android:textColor="@color/black"
-                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    android:textSize="@dimen/font_s"/>
 
                 <TextView
                     android:id="@+id/ProductDelivered"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:layout_margin="2dp"
                     android:gravity="end"
                     android:text="@string/text_delivered"
                     android:textColor="@color/green"
-                    android:padding="5dp"
-                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    android:textSize="@dimen/font_xl"/>
 
             </LinearLayout>
 
@@ -107,19 +105,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
                     android:text="@string/text_shop_name"
+                    android:layout_marginEnd="2dp"
                     android:textColor="@color/black"
-                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    android:textSize="@dimen/font_s"/>
 
                 <TextView
                     android:id="@+id/OrderShopName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    android:text="Rahamat General Store"
+                    android:text=" Rahamat General Store"
                     android:textColor="@color/black"
-                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    android:textSize="@dimen/font_s"/>
 
             </LinearLayout>
 
@@ -127,7 +124,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="10dp"
                 android:gravity="end">
 
                 <TextView
@@ -137,7 +133,7 @@
                     android:layout_gravity="end"
                     android:text="@string/text_write_review"
                     android:textColor="@color/black"
-                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    android:textSize="@dimen/font_xl"/>
 
             </LinearLayout>
 

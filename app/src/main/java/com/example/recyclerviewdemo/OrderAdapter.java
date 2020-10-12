@@ -20,7 +20,7 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderOA> {
     List<ProductModel> productList;
     //list of android version names
     String[] orderItemName = {"Cupcake", "Donut", "Eclair", "Froyo",
-            "Gingerbread", "Honeycomb", "Ice Cream Sandwich 260gm",
+            "Gingerbread", "Honeycomb", "Ice Cream Sandwich 260gm Sandwich 260gm Sandwich 260gmSandwich 260gm",
             "JellyBean", "Kitkat", "Lollipop", "Delivery Charge"};
     //list of android version
     String[] orderItemCount = {"x5", "x6", "x1",
@@ -29,7 +29,7 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderOA> {
     //list of android version
     String[] orderItemPrice = {"1.53", "1.62", "2.02",
             "222", "237", "3032", "4040", "41",
-            "443", "5.0-","25"};
+            "443", "5.0","25"};
     Context ctx;
 
 
