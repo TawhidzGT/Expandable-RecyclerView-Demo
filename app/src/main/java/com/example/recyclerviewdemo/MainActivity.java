@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     //list of android version
     String[] orderItemCount = {"x5", "x6", "x1",
             "x3", "x7", "x6", "x4", "x1",
-            "x4", "x1",""};
+            "x4", "x1","x2"};
     //list of android version
     String[] orderItemPrice = {"1.53", "1.62", "2.02",
             "222", "237", "3032", "4040", "41",
